@@ -1,0 +1,11 @@
+# 1.1 Think About Time Reflection
+
+I found a few of the time management and productivity techniques very interesting, the ones that really stuck with me were meditation, developing more of a growth mindset, the Pomodoro technique, and creating new habits. My favorite is working on developing more of a growth mindset, I learned about this for the first time during the Phase 0 Prep and I find the research fascinating. Specifically, when they talk about starting small, proving ones ability to yourself in a bunch of tiny ways, and allowing the confidence/growth mindset to naturally follow from there. Confidence is just your ability displayed for everyone to see!
+
+Time Boxing is when someone has a (previously determined) period of time to work steadily towards the completion of a task/goal. So instead of working on it until completion (then recording the time), timebox involves stopping once the time limit has been reached and evaluating what was completed. This can be helpful to me in Phase 0, if I pre-determine what days I need to get certain assignments done by, then I can look back to see about how long it took me to accomplish them, then I can do a better job of planning my time for them in the future. 
+
+Right now I am using my calendar to schedule time everyday that I should be working on certain assignments. I am a very visual person, so putting things on my calendar for me to see everyday is very helpful. I also use "to do lists" to help my anxiety of feeling like I have a million things to accomplish each day. It is working - to a point, but there is no accountability and a lot of procrastination. I am going to try to start employing some of these strategies into my everyday life by starting small and slowly. Small habits here and there, such as taking short breaks more often (pomodoro) and making a habit out of meditating here and there to help control my anxiety/stress when I am stuck or frustrated. I need to focus on the small things here and there, instead of the big picture like I tend to do, and then track my progress so I can use my results to further motivate myself. I still plan to use my calendar, but I would like to incorporate these strategies as well to improve it and be more realistic of my time management.
+
+## 1.2 The Command Line Reflection
+
+### 1.4 Forking and Cloning Reflection
