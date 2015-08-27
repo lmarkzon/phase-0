@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Design Reflection</title>
-	</head>
-	<body>
-		<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">		
-	</body>
-</html>
+<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">		
+
 
 <!--
 
