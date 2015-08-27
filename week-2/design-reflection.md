@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Design Reflection</title>
+	</head>
+	<body>
+		<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">		
+	</body>
+</html>
+
+<!--
+
 - What are the 6 Phases of Web Design?
 
 
@@ -18,6 +30,4 @@
 
 - Which parts of the challenge did you find tedious?
 
-
-<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">Site Map
-<img alt="Geico Logo" src="/users/lmarkzon/dbc/phase-0/week-2/imgs/geicoimg.gif"/>
+-->
