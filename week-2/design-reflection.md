@@ -14,4 +14,5 @@ In the reflection file you just created, copy and answer the following questions
 
 - Which parts of the challenge did you find tedious?
 
-![Site Map](/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.md "Site Map")
+![Site Map](https://github.com/phase-0/week-2/imgs/site-map.png "My Site Map")
+
