@@ -1,8 +1,3 @@
-<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">		
-
-
-<!--
-
 - What are the 6 Phases of Web Design?
 
 
@@ -23,4 +18,4 @@
 
 - Which parts of the challenge did you find tedious?
 
--->
+<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">		
