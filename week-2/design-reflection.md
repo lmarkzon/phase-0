@@ -19,4 +19,5 @@
 - Which parts of the challenge did you find tedious?
 
 
-<a href="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">Site Map.</a>
+<img src="/users/lmarkzon/dbc/phase-0/week-2/imgs/site-map.png">Site Map
+<img alt="Geico Logo" src="/users/lmarkzon/dbc/phase-0/week-2/imgs/geicoimg.gif"/>
