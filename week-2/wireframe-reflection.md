@@ -23,4 +23,4 @@ In the reflection file you just created, answer the following questions.
 
 ![Website Index Wireframe](https://github.com/lmarkzon/lmarkzon.github.io/blob/master/Wireframe-Index.png "Website Index Wireframe")
 
-![Blog Index Wireframe](https://github.com/lmarkzon.github.io/blog/blob/master/wireframe-blog-index.png "Blog Page Index Wireframe")
+![Blog Index Wireframe](https://github.com/lmarkzon/lmarkzon.github.io/blog/blob/master/wireframe-blog-index.png "Blog Page Index Wireframe")
