@@ -59,6 +59,6 @@ design our website however we chose to, the only
 part I felt was tedious was getting started.
 
 
-![Website Index Wireframe](/lmarkzon/phase-0/blob/lmarkzon.github.io/Wireframe-Index.png)
+![Website Index Wireframe](https://github.com/lmarkzon/lmarkzon.github.io/Wireframe-Index.png)
 
-![Blog Index Wireframe](/lmarkzon.github.io/wireframe-blog-index.png)
+![Blog Index Wireframe](https://github.com/lmarkzon/lmarkzon.github.io/wireframe-blog-index.png)
