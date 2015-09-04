@@ -1,4 +1,4 @@
-<img alt="image 1" src="phase-0/week-3/chrome-devtools/imgs/1. Change Colors.png"/>
+<img alt="image 1" src="/phase-0/week-3/chrome-devtools/imgs/1ChangeColors.png"/>
 
 
 <!-- Reflection
