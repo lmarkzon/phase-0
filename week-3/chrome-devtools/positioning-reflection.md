@@ -1,4 +1,5 @@
-<img alt="image 1" src="/phase-0/week-3/chrome-devtools/imgs/1ChangeColors.png"/>
+<img alt="change colors" src="https://github.com/lmarkzon/phase-0/blob/master/week-3/chrome-devtools/imgs/1ChangeColors.png"/>
+
 
 
 <!-- Reflection
