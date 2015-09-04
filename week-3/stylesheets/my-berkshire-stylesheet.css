@@ -90,3 +90,74 @@ a:visited {
 footer {
 	font-size: 10px;
 }
+
+/* Reflection:
+
+- What is important to know when linking an external file 
+(like a stylesheet) to an html file?
+	When linking an external file to an html file, it is very imporant
+	to link and script tags with the appropriate path designation. If 
+	the path is not correct - it will not "know" where to get the
+	stylesheet info from and not be able to apply the designs. It's
+	also important to make sure you include the rel, type, and 
+	href(link/path), you need all 3 for the link to work. You also
+	need to make sure the link in located inside of the head tags.
+	Lastly, the css file itself should not include any html tags.
+
+- What tricks did you use to help you with positioning? 
+How hard was it to get the site as you wanted it?
+	With positioning the text I used a lot of text-align properties,
+	whether I needed to center it or justify it. I used float to help
+	with positioning of the Geico image, as well as with the 2 columns. 
+	The display property, line-height property, and line-style-position
+	property were VERY helpful when trying to keep everything in place.
+	Being that I'm a very efficient worker and like things "pretty", it
+	seemed very tedious for me to get the site exactly like the other
+	one, which is exactly how I wanted it. Once I decided I was over-
+	doing it, I realized getting the site as I wanted it was not as hard
+	as I was making it.
+
+
+- What CSS did you use to modify the element style 
+(like size, color, etc.)
+	For the different text sizes I used font-size and since I don't
+	totally understand ems yet, I decided to use and experiment with
+	different pixel sizes and percentages. For the text color I just used
+	color and background-color. For the sizes of the columns and things
+	like that, I adjusted the height and the width until it looked right,
+	so I did a lot of experimenting and seeing how it looked then adjusted.
+	I used line-height quite a bit to fix the spacing between the lines and
+	sections, which was very helpful. I also used font-weight to make
+	certain words bold. In terms of the selectors, I used a bunch of 
+	different classes and IDs, as well as span and the other basic ones.
+
+
+- Did you modify the HTML to include classes or ids? If so, which 
+did you chose and why? If you didn't, how would you know which one 
+to add to your HTML?
+	I used a lot of classes and ids to modify the html, it seemed like that
+	was the most logical way to identify which html element I was referring
+	to. I used class by far the most, just because it was the easiest and
+	most efficient, plus I could reuse them as much as I wanted to, which
+	was very convenient. I also modified the html to insert the horizontal
+	lines, which was one of the biggest issues for me. I could not figure
+	out at first how to insert the horizontal line, when the hr html tag
+	was just so easy to insert. But I could definitely see how the hr tag
+	would become an issues later when I made additional changes to my site.
+
+- When you compared your site to the actual code base, which do you 
+think had cleaner code that followed best practices and why?
+	I definitely think that in general, my site's code was much cleaner and
+	followed the best practices - but by no means is my code perfect or 100%
+	correct. For example, in order to make 2 columns they created a table
+	within the html document - which has A LOT more coding and work than mine.
+	I just had to give each set of links (column 1 and column 2) a class and
+	then in my CSS stylesheet tell it what to do (float left or right, etc.).
+	They also add little tags just thrown in everything in the html document,
+	font-weights and sizes and things like that, so if they wanted to change
+	a certain format of the whole document, they would have to go through the 
+	entire thing and look for all of the design changes. With the external
+	stylesheet, it is much easier to find what changes you need to make and 
+	actually make them.
+
+*/
