@@ -1,4 +1,4 @@
-<img alt="image 1" src="/users/lmarkzon/dbc/phase-0/week-3/chrome-devtools/imgs/1. Change Colors.png"/>
+<img alt="image 1" src="/imgs/1. Change Colors.png"/>
 
 <!-- Reflection
 - How can you use Chrome's DevTools inspector to help you format or position elements?
