@@ -13,7 +13,7 @@ Reflection:
 
 - What was your impression of this challenge overall? (love, hate, and why?)
 
-<img src="https://github.com/lmarkzon/phase-0/blob/master/week-3/chrome-devtools/imgs/1ChangeColors.png"/>
+<img alt="1. Change Colors" src="https://github.com/lmarkzon/phase-0/blob/master/week-3/chrome-devtools/imgs/1ChangeColors.png"/>
 
 <img src="https://github.com/lmarkzon/phase-0/blob/master/week-3/chrome-devtools/imgs/2Column.png">
 
