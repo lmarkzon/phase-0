@@ -26,7 +26,7 @@ Reflection:
 ![3. Rows](imgs/3Row.png)
 
 4. Make Equidistant
-![4. Make Equidistant](4MakeEquid.png)
+![4. Make Equidistant](imgs/4MakeEquid.png)
 
 5. Sqaures
 ![5. Squares](imgs/5Squares.png)
