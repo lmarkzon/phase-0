@@ -2,7 +2,7 @@
 
 ##What does puts do?
 
-	- "Puts" literally writes onto the screen/console whatever you put after it on a new line. It stands for "put string", but it doesn't actually return anything, it just outputs the string to the screen/console. 
+	- "Puts" literally writes onto the screen/console whatever you put after it on a new line. It stands for "put string", but it doesn't actually return anything (nil), it just outputs the string to the screen/console. 
 
 ##What is an integer? What is a float?
 
@@ -14,12 +14,12 @@
 
 #Release 2: Try It!
 
-irb(main):003:0> 365*24
-=> 8760
+irb(main):003:0> 365*24 
+=> 8760 					#hours in 1 year
 
-irb(main):004:0> 8760*60
-=> 525600
+irb(main):004:0> 365*24*60 
+=> 525600					#minutes in 1 year
 
-irb(main):005:0> 525600*10
-=> 5256000
+irb(main):005:0> 365*24*60*10 
+=> 5256000					#minutes in a decade
 
