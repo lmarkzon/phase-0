@@ -26,7 +26,9 @@ irb(main):005:0> puts 365 * 24 * 60 * 10
 ##Release 5: 
 
 [Defining Variables](https://github.com/lmarkzon/phase-0/blob/master/week-4/defining.variables.rb)
+
 [Simple String Methods](https://github.com/lmarkzon/phase-0/blob/master/week-4/simple-string.rb)
+
 [Local Variables and Basic Arithmetical Operations](https://github.com/lmarkzon/phase-0/blob/master/week-4/basic-math.rb)
 
 ##Release 7: Reflect
