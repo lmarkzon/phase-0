@@ -23,3 +23,22 @@ irb(main):004:0> 365*24*60
 irb(main):005:0> 365*24*60*10 
 => 5256000					#minutes in a decade
 
+#Release 7: Reflect
+
+- How does Ruby handle addition, subtraction multiplication, and division of numbers?
+
+
+- What is the difference between integers and floats?
+
+
+- What is the difference between integer and float division?
+
+
+- What are strings? Why and when would you use them?
+
+
+- What are local variables? Why and when would you use them?
+
+
+- How was this challenge? Did you get a good review of some of the basics?
+
