@@ -13,5 +13,6 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-  # Your code goes here!
+  string = list_of_words.sort { |b,a| a.length <=> b.length }
+  p string[0]
 end
