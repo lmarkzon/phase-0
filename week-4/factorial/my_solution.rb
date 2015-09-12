@@ -1,16 +1,13 @@
 # Factorial
 
-# I worked on this challenge with Jamie.
+# I worked on this challenge [Jamie
 
 
 # Your Solution Below
-def factorial(n)
-	if n < 0
-		'sorry charlie!'
-	elsif n <= 1
-		1
-		elsif (n-1).each 
-			n(n-1)
-		end
-	end
+def factorial(num)
+  (1..num).inject(1) {|a, b| a * b}
 end
+
+
+#The factorial of a number is the product 
+#of all integers from 1 up to that number. 
