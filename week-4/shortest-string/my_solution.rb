@@ -12,7 +12,7 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  string = list_of_words.sort { |a,b| a.length <=> b.length }
-  p string[0]
+  list_of_words.sort! { |a,b| a.length <=> b.length }
+  return list_of_words[0]
 end
 

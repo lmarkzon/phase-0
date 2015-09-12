@@ -1,6 +1,6 @@
 # Longest String
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself,: ].
 
 # longest_string is a method that takes an array of strings as its input
 # and returns the longest string
@@ -13,6 +13,6 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-  string = list_of_words.sort { |b,a| a.length <=> b.length }
-  p string[0]
+  list_of_words.sort! { |a,b| a.length <=> b.length }
+  return list_of_words.reverse[0]
 end
