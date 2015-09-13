@@ -4,30 +4,23 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
 
-# I worked on this challenge [by myself, ].
+# I worked on this challenge with Jamie.
 
 # 0. total Pseudocode
 # make sure all pseudocode is commented out!
-
-# Input: array of [numbers]
-# Output: sum of all the numbers (sum)
-# Steps to solve the problem.
 	
 # define total as 0 
 # take each element in the argument to the method and add them together
 # return sum
 
 # 1. total initial solution
+
 def total(array)
 	total = 0
-	array.each { |arr| total += arr }
+	array.each { |i| total += i }
 	return total
 end
 
-
-
-#array.each do |i|
- # 		sum += [i]
 
 # 3. total refactored solution
 
