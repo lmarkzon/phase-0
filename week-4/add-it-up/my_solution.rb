@@ -17,7 +17,7 @@
 
 def total(array)
 	total = 0
-	array.each { |i| total += i }
+		array.each { |i| total += i }
 	return total
 end
 
