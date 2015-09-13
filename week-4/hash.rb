@@ -8,7 +8,10 @@
 my_info = {:first_name => 'Lauren', :last_name => 'Markzon', 
   :hometown => 'West Bloomfield', :age => 25}
 
-p my_info
+p my_info [:first_name]
+p my_info [:last_name]
+p my_info [:hometown]
+p my_info [:age]
 
 
 
