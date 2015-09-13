@@ -12,20 +12,18 @@
 # Input: array of [numbers]
 # Output: sum of all the numbers (sum)
 # Steps to solve the problem.
-	# 1) take input and define
-	# 2) take each number within the array and add each together
-	# 3) return output
-
+	
+# define total as 0 
+# take each element in the argument to the method and add them together
+# return sum
 
 # 1. total initial solution
 def total(array)
-	array = [0]
-		
-		array.each do |i|
-			total += i
-		
-	end
+	total = 0
+	array.each { |arr| total += arr }
+	return total
 end
+
 
 
 #array.each do |i|
