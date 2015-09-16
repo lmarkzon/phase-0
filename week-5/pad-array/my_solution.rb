@@ -1,6 +1,6 @@
 # Pad an Array
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge [with: Irina]
 
 # I spent [] hours on this challenge.
 
@@ -13,6 +13,9 @@
 
 # 0. Pseudocode
 
+
+
+
 # What is the input?
 # What is the output? (i.e. What should the code return?)
 # What are the steps needed to solve the problem?
@@ -20,12 +23,18 @@
 
 # 1. Initial Solution
 def pad!(array, min_size, value = nil) #destructive
-  # Your code here
+  if array.length == 0
+    return array
+  elsif array.length >= min_size
+    return array
+  else array.length < min_size
+    return array_1[array, (min_size - array.length)*value]
+  end
 end
 
-def pad(array, min_size, value = nil) #non-destructive
+#def pad(array, min_size, value = nil) #non-destructive
   # Your code here
-end
+#end
 
 
 # 3. Refactored Solution
