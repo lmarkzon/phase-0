@@ -23,19 +23,28 @@
 
 # 1. Initial Solution
 def pad!(array, min_size, value = nil) #destructive
-  if array.length == 0
+  if array == 0
     return array
   elsif array.length >= min_size
     return array
   else array.length < min_size
-    return array_1[array, (min_size - array.length)*value]
+    diff = min_size - array.length
+    diff.times {array << value }
+    return array
   end
-end
+ end
 
-#def pad(array, min_size, value = nil) #non-destructive
-  # Your code here
-#end
-
+def pad(array, min_size, value = nil) #destructive
+  if array == 0
+    return array
+  elsif array.length >= min_size
+    return array
+  else array.length < min_size
+    diff = min_size - array.length
+    diff.times {array << value }
+    return array
+  end
+ end
 
 # 3. Refactored Solution
 
