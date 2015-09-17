@@ -36,32 +36,54 @@
 
 
 # 1. Initial Solution
-def pad!(array, min_size, value = nil) #destructive
-  if array == 0
-    return array
-  elsif array.length >= min_size
-    return array
-  else array.length < min_size
-    diff = min_size - array.length
-    diff.times {array << value }
-    return array
-  end
- end
+# def pad!(array, min_size, value = nil) #destructive
+#   if array == 0
+#     return array
+#   elsif array.length >= min_size
+#     return array
+#   else array.length < min_size
+#     diff = min_size - array.length
+#     diff.times {array << value }
+#     return array
+#   end
+#  end
 
-def pad(array, min_size, value = nil) #destructive
-  if array == 0
-    return array
-  elsif array.length >= min_size
-    return array
-  else array.length < min_size
-    diff = min_size - array.length
-    diff.times {array << value }
-    return array
-  end
- end
+# def pad(array, min_size, value = nil) #destructive
+#   if array == 0
+#     return array
+#   elsif array.length >= min_size
+#     return array
+#   else array.length < min_size
+#     diff = min_size - array.length
+#     diff.times {array << value }
+#     return array
+#   end
+#  end
 
 # 3. Refactored Solution
+def pad!(array, min_size, value=nil) #destructive
+  if min_size == 0 or array.length >= min_size
+    return array
+  else (min_size - array.length).times { |array, x| array << value.to_i } 
+    return array
+end
+end
+
+def pad(array, min_size, value=nil) #non-destructive 
+  array_1=Array.new(array)
+  if min_size == 0 or array.length >= min_size
+    return array_1
+    else (min_size - array_1.length).times { |array, x| array_1 << value }
+    return array_1
+  end
+end
+
+
+=begin
+
+4. Reflection
 
 
 
-# 4. Reflection
+
+
