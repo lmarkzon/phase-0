@@ -83,7 +83,36 @@ end
 
 4. Reflection
 
+- Were you successful in breaking the problem down into small steps?
+	For the most part I think we were successful, but in the beginning we missed small steps/
+details that made a big difference in whether or not the code passed. At first we struggled in
+wrapping our brains around figuring out what we thought we needed to do. Then once we figured out 
+what we needed to do, we had a hard time figuring out how we could do it. But once we got our 
+psuedocode going, we were able to understand it enough to start building our initial solution.
 
+- Once you had written your pseudocode, were you able to easily translate it into code? 
+What difficulties and successes did you have?
+	Sort of, we definitely had to change our pseudocode quite a few times as we started trying 
+to actually build the solution. Neither of us have a ton of experience psuedocoding so it's still
+hard to get used to doing, we both just want to just jump into getting the code started. But since
+we didn't spend more time psuedocoding, we got distracted with small details for large amounts of
+time. We thought we knew what we needed to do, but we were missing small details here and there in 
+the code that were crucial in the tests passing. The majority of our psuedocode was very useful, it
+was the small things such as needing to create another variable to work with, or creating a new array
+first.
 
+- Was your initial solution successful at passing the tests? If so, why do you think that is? 
+If not, what were the errors you encountered and what did you do to resolve them?
+	No, our initial solution did not pass all of the tests, we kepy getting 3 errors that we 
+did not know how to solve at the time. 
+
+- When you refactored, did you find any existing methods in Ruby to clean up your code?
+	
+
+- How readable is your solution? Did you and your pair choose descriptive variable names?
+	The refactored solution looks very clean and organized, I would definitely say it is readable. 
+
+- What is the difference between destructive and non-destructive methods in your own words?
+	Non-destructive methods 
 
 
