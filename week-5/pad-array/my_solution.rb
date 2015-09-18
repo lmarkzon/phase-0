@@ -2,7 +2,7 @@
 
 # I worked on this challenge [with: Irina]
 
-# I spent [] hours on this challenge.
+# I spent [2-3] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
@@ -36,44 +36,37 @@
 
 
 # 1. Initial Solution
-# def pad!(array, min_size, value = nil) #destructive
-#   if array == 0
+# def pad!(array, min_size, value=nil) #destructive -- This one works!
+#   if min_size == 0 or array.length >= min_size
 #     return array
-#   elsif array.length >= min_size
-#     return array
-#   else array.length < min_size
-#     diff = min_size - array.length
-#     diff.times {array << value }
-#     return array
-#   end
-#  end
+#     else
+#     return array << value
+# end
+# end
 
-# def pad(array, min_size, value = nil) #destructive
-#   if array == 0
-#     return array
-#   elsif array.length >= min_size
-#     return array
-#   else array.length < min_size
-#     diff = min_size - array.length
-#     diff.times {array << value }
-#     return array
+# def pad(array, min_size, value=nil) #non-destructive -- Something missing
+#   array_1=Array.new(array)
+#   if min_size == 0 or array.length >= min_size
+#     return array_1
+#     else
+#     return array_1 >> value
 #   end
-#  end
+# end
 
 # 3. Refactored Solution
 def pad!(array, min_size, value=nil) #destructive
-  if min_size == 0 or array.length >= min_size
+  if min_size == 0 || array.length >= min_size
     return array
   else (min_size - array.length).times { |array, x| array << value.to_i } 
     return array
-end
+  end
 end
 
 def pad(array, min_size, value=nil) #non-destructive 
-  array_1=Array.new(array)
-  if min_size == 0 or array.length >= min_size
+  array_1 = Array.new(array)
+  if min_size == 0 || array.length >= min_size
     return array_1
-    else (min_size - array_1.length).times { |array, x| array_1 << value }
+  else (min_size - array_1.length).times { |array, x| array_1 << value } # << is push operator
     return array_1
   end
 end
@@ -104,15 +97,25 @@ first.
 - Was your initial solution successful at passing the tests? If so, why do you think that is? 
 If not, what were the errors you encountered and what did you do to resolve them?
 	No, our initial solution did not pass all of the tests, we kepy getting 3 errors that we 
-did not know how to solve at the time. 
+did not know how to solve at the time. For the non destructive method we didn't realize we needed to
+create a new local varible to equal a new array, and in the destructive method we had the array
+equal to 0 when in fact it should have been the min_size equal to 0 or the array length greater
+than or equal to the min_size. We also were using the actualy multiplication symbol when we should
+have been using the times method, so once we fixed that it made a big difference.
 
 - When you refactored, did you find any existing methods in Ruby to clean up your code?
-	
+	Like I said in the previous answer, we used the times method which was really helpful. I also 
+learned about the push operator, which is just an alternative to the push method, it adds the 
+specified element value to the end of the array. 
 
 - How readable is your solution? Did you and your pair choose descriptive variable names?
-	The refactored solution looks very clean and organized, I would definitely say it is readable. 
+	The refactored solution looks very clean and organized, I would definitely say it is readable. The
+original solution was pretty messy and unorganized. Since we only had to choose 1 or 2 variables names,
+it was very easy for us to come up with descriptive variable names for what we needed to do.  
 
 - What is the difference between destructive and non-destructive methods in your own words?
-	Non-destructive methods 
+	Non-destructive methods do not modify (or destroy) the original data, they return a whole new data
+structure. Destructive methods, on the other hand, are the opposite, they only modify the original
+data permanently and returned the altered data.
 
-
+=end
