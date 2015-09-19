@@ -32,17 +32,20 @@ array that held all the things that matched what was being looked for.
 
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.map! {|x| x.is_a?(Integer) ? x + thing_to_modify : x}
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.each {|k, v| source.store(k, v+thing_to_modify) if v.is_a?(Integer)}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# I used the map! method which goes over the entire array and remakes it with any code that you insert. 
+# I also saw there is a .collect that appears to do something similar. I wasn't able to use to use either 
+# method successfully on the hash, however. I'm not sure why. After reading through Ruby docs basically 
+# from the top--down I saw that the .store method is a way to individually change values in a hash. I 
+# decided to try iterating through the hash with each and then using store on each key-value pair to 
+# change the value in cases where the value was an integer. It worked.
 
 
 # Person 3
