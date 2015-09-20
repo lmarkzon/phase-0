@@ -36,7 +36,8 @@ def my_array_modification_method!(source, thing_to_modify)
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
-  source.each {|k, v| source.store(k, v+thing_to_modify) if v.is_a?(Integer)}
+       source.each {|k, v| source[k] = v + thing_to_modify}
+       p source
 end
 
 # Identify and describe the Ruby method(s) you implemented.
