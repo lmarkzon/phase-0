@@ -8,8 +8,14 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 
 # Person 1's solution
 def my_array_finding_method(source, thing_to_find)
-  new_array = source.map {|x| x.to_s} # to convert the Fixnums
-  new_array.select {|x| p "#{x}" if x.include?(thing_to_find)}
+  words = []
+  found_things = []
+  source.each do |word|
+    if word.is_a?(String) && word.include?(thing_to_find)
+      found_things.push(word)
+    end
+  end
+  return found_things
 end
 
 def my_hash_finding_method(source, thing_to_find)
