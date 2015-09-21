@@ -18,25 +18,31 @@
 				# check if last array is less than 3 length?
 # - return new grouped arrays
 
+bobolinks = [
+"Aji Slater", "Alison Lyons", "Awilda Cantres", "Celeste Carter", "Christopher Mark", "CJ Joulain", 
+"Colin Razevich", "David O'Keefe", "Eric Shou", "Eunice Choi", "Farman Pirzada", "George Wambold", 
+"Hana Worku", "Harmin Jeong", "Ian Lockwood", "Irina Renteria", "Jamie Runyan", "Jenna Andersen", 
+"Julian Lesse", "Jupiter Baudot", "Kai Huang", "Kim Allen", "Kristie Chow", "Lauren Jin", "Lauren Markzon", 
+"Marcel Galang", "Marcus Davis", "Marvy Tagala", "Michael Landon", "Miguel Melendez", "Mike Cerrone", 
+"Nathan Park", "Nicholas Yee", "Ovi Calvo", "Pamela Antonow", "Paul Etscheit", "Regina Compton", "Richard Leo", 
+"Ricky Binhai Hu", "Rosslyn Sinclair-Chin", "Ryan Lesson", "Salim Rahimi", "Sam Purcell", "Shawn Watson", 
+"Shunqian Luo", "Solomon Fernandez","Un Choi", "Zino Hu"
+]
+
 #2. Initial Solution
 
 
+
+#4. Refactored Solution
 def acct_groups(names)
 	new_groups = []
 
 	if names.length % 3 == 0
-		names.each_slice(3) do |string|
-		new_groups << string
+		new_groups = names.shuffle.each_slice(4).map do|character| p character
 	end
-	else names.length % 4 == 0
-		names.each_slice(4) do |string|
-		new_groups << string
-	end
+  end
 end
-	puts new_groups
-end
-
-#4. Refactored Solution
+	acct_groups(bobolinks)
 
 
 
