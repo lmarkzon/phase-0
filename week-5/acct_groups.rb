@@ -30,21 +30,30 @@ bobolinks = [
 ]
 
 #2. Initial Solution
+# def acct_groups(names)
+# 	names.shuffle
+# 	new_groups = Array.new
 
-
+# 	if names.length % 4 == 0 or names.length % 3 == 0
+# 		new_groups = names.shuffle.each_slice(4) do|array|
+# 		p array
+# 	end
+#   end
+# end
+# 	acct_groups(bobolinks)
 
 #4. Refactored Solution
 def acct_groups(names)
+	names.shuffle
 	new_groups = []
 
-	if names.length % 3 == 0
-		new_groups = names.shuffle.each_slice(4).map do|character| p character
-	end
+	if names.length % 4 == 0
+		new_groups = names.shuffle.each_slice(4) do|array| 	#map creates new array based on original, values modified by block
+		p array
+	  end
   end
 end
 	acct_groups(bobolinks)
-
-
 
 #5. Write Driver Code
 
