@@ -73,4 +73,7 @@ end
 # variable, the method runs, and disappears afterwards - it literally is only true for that one instance. 
 
 # - Where can an instance variable be used?
-# An instance variable is scoped to the class, it can be accessed from any method within the class. 
+# An instance variable is scoped to the class, it can be accessed from any method within the class. It's
+# prefixed with an @ symbol. - variable declared inside a method comes into existence brand new each time 
+# the method runs, and disappears afterwards. They are created when the object is created, they stay around 
+# for as long as the object does, and keep their value between method calls.
