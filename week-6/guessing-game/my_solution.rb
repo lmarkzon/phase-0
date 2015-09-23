@@ -104,4 +104,4 @@ end
 	# Symbols can be identified to the programmer by its name or by numeric represenation. If 2 ruby symbols are compared, 
 	# and their numeric representation is equal, then the symbols are equal. If you use a symbol a bunch of times in your
 	# program, every usage of it would refer to exactly the same obejct with exactly the same numeric representation and
-	# exactly the same string representation. Symbols have many advantages like this. Another is that 
+	# exactly the same string representation. Symbols have many advantages like this.
