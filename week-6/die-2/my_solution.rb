@@ -1,27 +1,35 @@
 # Die Class 2: Arbitrary Symbols
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself ].
 # I spent [#] hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: an array of strings
+# Output: a randomly returned string
+# If Die.new is passed an empty array, raise an ArgumentError
 # Steps:
 
 
 # Initial Solution
 
 class Die
-  def initialize(labels)
-  end
+	def initialize(labels)
+  		@die_class = labels
 
-  def sides
-  end
+  		if @die_class = Array.new
+  			raise ArgumentError.new("Error: Die.new passed an empty array")
+  		end
+  	end
 
-  def roll
-  end
+  	def sides
+  		@die_class.count
+  	end
+
+  	def roll
+  		@die_class.rand
+  	end
 end
 
 

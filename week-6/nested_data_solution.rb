@@ -2,7 +2,7 @@
 # # Hole 1
 # # Target element: "FORE"
 
-# array = [[1,2], ["inner", ["eagle", "par", ["FORE", "hook"]]]]
+array = [[1,2], ["inner", ["eagle", "par", ["FORE", "hook"]]]]
 
 # # attempts:
 # # ============================================================
@@ -14,7 +14,7 @@
 # Hole 2
 # Target element: "congrats!"
 
-# hash = {outer: {inner: {"almost" => {3 => "congrats!"}}}}
+hash = {outer: {inner: {"almost" => {3 => "congrats!"}}}}
 
 # # attempts:
 # # ============================================================
@@ -27,7 +27,7 @@
 # Hole 3
 # Target element: "finished"
 
-# nested_data = {array: ["array", {hash: "finished"}]}
+nested_data = {array: ["array", {hash: "finished"}]}
 
 # # attempts:
 # # ============================================================
@@ -62,3 +62,14 @@ startup_names.map! do |element|
 	else p element + "ly"
 	end
 end
+
+
+# Reflection
+# - What are some general rules you can apply to nested arrays?
+#
+# - What are some ways you can iterate over nested arrays?
+#
+# - Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it 
+#and why did you decide that was a good option?
+# 
+#

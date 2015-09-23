@@ -1,4 +1,4 @@
-# Die Class 1: Numeric
+	# Die Class 1: Numeric
 
 # I worked on this challenge [by myself,: ]
 
@@ -26,16 +26,16 @@ class Die
     if sides < 1
     	raise ArgumentError.new("Error: Less than 1 size")
     else
-    	@num_of_sides = sides
+    	@side_nums = sides
     end
   end
 
   def sides
-    return @num_of_sides
+    return @side_nums
   end
 
   def roll
-    rand(1..@num_of_sides)
+    rand(1..@side_nums)
   end
 end
 
@@ -57,23 +57,23 @@ end
 	# tested the rspec to see my errors of what I still needed, and it passed all of the tests.
 
 # - What is a Ruby class?
-# Ruby classes are like blueprints, once they're done you can use them over and over to determine how
-# objects within that class will behave. A class defines the behaviors of the objects within it,
-# an example of a class would be strings. They have certain rules and behaviors based on the fact that 
-# it is a string, we can also say these ojects are inheriting the behaviors. 
+	# Ruby classes are like blueprints, once they're done you can use them over and over to determine how
+	# objects within that class will behave. A class defines the behaviors of the objects within it,
+	# an example of a class would be strings. They have certain rules and behaviors based on the fact that 
+	# it is a string, we can also say these ojects are inheriting the behaviors. 
 
 # - Why would you use a Ruby class?
-# Like I said above, you use ruby classes so you can define the classes behavior or parameters once, and
-# then use it again to give other objects the same inherited behaviors. This can save you some serious
-# time building code, as well as keep all of your objects behaviors organized. 
+	# Like I said above, you use ruby classes so you can define the classes behavior or parameters once, and
+	# then use it again to give other objects the same inherited behaviors. This can save you some serious
+	# time building code, as well as keep all of your objects behaviors organized. 
 
 # - What is the difference between a local variable and an instance variable?
-# A local variable has scope only within that context or method, opposed to an instance variable,
-# which is declared inside a method and comes into existence as brand new - each time. In an instance
-# variable, the method runs, and disappears afterwards - it literally is only true for that one instance. 
+	# A local variable has scope only within that context or method, opposed to an instance variable,
+	# which is declared inside a method and comes into existence as brand new - each time. In an instance
+	# variable, the method runs, and disappears afterwards - it literally is only true for that one instance. 
 
 # - Where can an instance variable be used?
-# An instance variable is scoped to the class, it can be accessed from any method within the class. It's
-# prefixed with an @ symbol. - variable declared inside a method comes into existence brand new each time 
-# the method runs, and disappears afterwards. They are created when the object is created, they stay around 
-# for as long as the object does, and keep their value between method calls.
+	# An instance variable is scoped to the class, it can be accessed from any method within the class. It's
+	# prefixed with an @ symbol. - variable declared inside a method comes into existence brand new each time 
+	# the method runs, and disappears afterwards. They are created when the object is created, they stay around 
+	# for as long as the object does, and keep their value between method calls.
