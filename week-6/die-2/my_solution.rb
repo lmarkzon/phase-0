@@ -70,7 +70,7 @@ end
 # - What were the main differences between this die class and the last one you created in terms of implementation? Did you 
 # need to change much logic to get this to work?
 	# There were barely any differences between this die class challenge and the previous one. Instead of working with number of
-	# sides
+	# sides we are working with the labels of the sides. 
 
 # - What does this exercise teach you about making code that is easily changeable or modifiable? 
 	# Well I guess it teaches me that code CAN be made in a way that is easily changeable or modifiable to use in other instances.
