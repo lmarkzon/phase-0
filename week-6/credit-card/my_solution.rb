@@ -32,27 +32,24 @@
 
 class CreditCard
 	def initialize(digits)
-		if @digits != 16
-			raise ArgumentError.new("Error: please enter 16 digits")
-		else @digits = digits
-		end
+		@digits = digits
+
+		raise ArgumentError.new("Error: please enter 16 digits") unless @digits == 16
 	end
 
-	def doubles
-		digits.each.at(-2).step(2) { |integer| p integer + integer }
-	end
+	def check_card
+		@split = @digits.to_s.split("")
+		@digits.map! { |character| character.to_i }
 
-	def separate_then_sum
-		total = 0
-		separated_nums = digits.to_s.split('').map! { |integertwo| integertwo.to_i }
-		separated_nums.each { |int| total += int}
-	end
+		@separated_nums = @digits.map!.at(-2).step(2) { |integer| p integer + integer }
 
-	def validate
-		total % 10 == 0
+		@total = @separated_nums.each { |int| @total += int}
+		
+		@total % 10 == 0? true : false
 	end
 end
 
+# test1 = CreditCard.new(1234567891011121)
 
 
 # Refactored Solution
