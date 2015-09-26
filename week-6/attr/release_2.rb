@@ -1,4 +1,4 @@
-# Release 1
+# Release 2
 
 class Profile
 
@@ -55,7 +55,7 @@ instance_of_profile = Profile.new
 #age() will be a member of this list!
 puts "--- printing age -----"
 sleep 0.8
-p instance_of_profile.age
+p instance_of_profile.age # was-> p instance_of_profile.what_is_age 
 
 puts "--- printing name ----"
 sleep 0.8

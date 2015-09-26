@@ -1,4 +1,4 @@
-# Release 2:
+# Release 3:
 
 class Profile
 
@@ -65,7 +65,8 @@ puts "--- changing profile information ----"
   sleep 0.1
 end
 
-instance_of_profile.age = 28 # This method has changed! See the difference?
+# release2-> instance_of_profile.change_my_age
+instance_of_profile.age = 28 # This method changed!
 instance_of_profile.change_my_name = "Taylor"
 instance_of_profile.change_my_occupation = "Rare Coins Trader"
 
