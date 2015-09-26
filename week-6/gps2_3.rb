@@ -44,7 +44,8 @@ p serving_size_calc("cookie", 10)
   # - Did you learn any new methods? What did you learn about them?
   	# In terms of methods, there were not any used in this challenge that I had not used before. I used
   	# include which I've used before, but I needed to check the ruby-docs to make sure I was using it 
-  	# correctly. 
+  	# correctly. I also looked up case in the docs because I had never seen it before, but I deleted it
+    # anyways!
   # - What did you learn about accessing data in hashes? 
   	# I already knew that when accessing data in hashes, you "call" it by it's key, which is a symbol.
   	# You can call it by its key simply by putting the key in between brackets like [key], which is
