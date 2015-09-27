@@ -1,0 +1,36 @@
+class CreditCard
+   def initialize(digits)
+    @digitarray = digits.to_s.split("")
+    @digitarray.map!{|value| value.to_i}
+
+if.........
+
+
+   def double
+     @digitarray.map!.with_index do |integer, index|
+       if index.even?
+         integer * 2
+       else
+         integer
+       end
+     end
+
+     @digitarray = @digitarray.join.to_s.split('')
+     @digitarray.map! { |value| value.to_i }
+   end
+
+   def sum_digits
+     @total = 0
+     @digitarray.each do |integer|
+       @total += integer
+     end
+     @total
+   end
+
+   def check_card
+     double
+     sum_digits
+     @total % 10 == 0? true : false
+   end
+
+ end
