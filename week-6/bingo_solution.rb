@@ -155,7 +155,8 @@ new_game.display
   # I actually thought pseudocoding in this challenge was not that bad and really helpful, for 
   # once! It really helped me understand what exactly I needed to do and when I needed to do it. 
   # In terms of my style, I like that I use headers, but I need to figure out a way to make sure
-  # every line of pseudocode is neccessary and going to be used or turned into code. 
+  # every line of pseudocode is neccessary and going to be used or turned into code. Since I ended
+  # up changing the way I did my solution, the current pseudocode doesn't exactly line up.
 # - What are the benefits of using a class for this challenge?
   # Using a class for this challenge allowed me to access variables between methods, which was
   # very helpful. They are also helpful for organizing so I don't have to create a million methods
