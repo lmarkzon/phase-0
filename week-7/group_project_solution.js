@@ -6,7 +6,7 @@
 	// sort the list of numbers in the array from lowest to highest
 	// IF the length of the array (count of the numbers on the list) is odd
 		// return median, which is only the middle number
-	// ELSE the length of the array is an even
+	// ELSE the length of the array is even
 		// return the 2 middle numbers, those are the medians (need to make sure you are taking the MIDDLE ones)
 // use a function called sum to find the sum of the list of numbers by:
 	// set variable (total sum) that adds together the array of numbers received an input

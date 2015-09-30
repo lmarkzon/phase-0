@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with: Rosslyn Sinclair-Chin.
 
 // Pseudocode
 // Create function that accepts number (integer) as input
@@ -22,16 +22,12 @@
 //   var output = [ ];
 //   var digits = number.toString().split("").reverse();
   
-//   while (digits.length > 0)
-// //so it doesn't loop FOREVER and knows how to separate and when to start?
-//   	output.push(digits.splice(0, 3).join('')); 
-//(0, 3) (index now 0 since reversed string so start at the first number, 
-//and we want it to split into separate groups every 3 numbers, then join each)
+//   while (digits.length > 0)                          
+//     output.push(digits.splice(0, 3).join(''));      
 
-//    	digits = output.join(',').split('');
-//       //joins the strings where commas are, splits at spaces
-//     output = digits.reverse().join('')
-//     //reverse back, and then join remaining spaces!!
+//     digits = output.join(',').split('');  
+                                                     
+//     output = digits.reverse().join('')         
 
 //   console.log(output);
       
@@ -39,36 +35,34 @@
 
 // Refactored Solution
 function separateCommas(number) {
-  var output = [ ];
-  var digits = number.toString().split("").reverse();
-  
-  while (digits.length > 0)
-//so it doesn't loop FOREVER and knows how to separate and when to start?
-  	output.push(digits.splice(0, 3).join('')); 
-//(0, 3) (index now 0 since reversed string so start at the first number, 
-//and we want it to split into separate groups every 3 numbers, then join each)
+  var digits = number.toString().split('');
+  var i = 3;
+  while (i < digits.length) {
+    digits.splice(-i, 0, ',');
+    i += 4;
+  }
 
-   	digits = output.join(',').split('');
-      //joins the strings where commas are, splits at spaces
-    output = digits.reverse().join('')
-    //reverse back, and then join remaining spaces!!
-
-  console.log(output);
+  console.log(digits.join(''));
       
 }
 
 
-
 // Your Own Tests (OPTIONAL)
-separateCommas(10000)
+separateCommas(1000000000)
 
 
 
 // Reflection
-// - What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
-	//
+// - What was it like to approach the problem from the perspective of JavaScript? Did 
+// you approach the problem differently?
+	// At first we tried to approach the problem from a new and fresh perspective, and I 
+  // think we ended up just attempting to use functions we didn't fully understand yet.
+  // Seeing all of the similarities between Ruby and JS got us a little over-confident.
+  // Once we reapproached the problem and took it step by step, we were able to come up
+  // with a working solution, refactor, and have a better understanding of JS workflow.
 // - What did you learn about iterating over arrays in JavaScript?
-
+  // 
 // - What was different about solving this problem in JavaScript?
-
+  // 
 // - What built-in methods did you find to incorporate in your refactored solution?
+  // 
