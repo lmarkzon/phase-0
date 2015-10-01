@@ -8,11 +8,21 @@ var one = 1, five = 5, ten = 10;
 console.log((one + ten) * five)
 
 // Favorite Food Program
+prompt("What is your favorite food?", "My favorite food is...");
+console.log(alert("Hey! That's my favorite too!"));
 
 
-// Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
+// Complete one of the exercises: 
+// Looping a Triangle
+for (var triangle = "#"; triangle.length < 8; triangle += "#")
+  console.log(triangle);
 
-
+// FizzBuzz
+for (var number = 1; number <= 100; number += 1)
+	if ((number % 3 == 0) && (number % 5 == 0)) console.log("FizzBuzz");
+    else if (number % 3 == 0) console.log("Fizz");
+	else if (number % 5 == 0) console.log("Buzz");
+	else console.log(number);
 
 // Functions
 
