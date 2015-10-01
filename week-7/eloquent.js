@@ -27,8 +27,17 @@ for (var number = 1; number <= 100; number += 1)
 // Functions
 
 // Complete the `minimum` exercise.
+function min(x, y) {
+	return (x <= y) ? x : y;
+};
 
-
+console.log(min(0, 10));		// → 0
+console.log(min(0, -10));		// → -10
 
 // Data Structures: Objects and Arrays
-// Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+// Create an object called "me" that stores your name, age, 3 favorite foods, 
+// and a quirk below.
+
+var me = {firstName:"Lauren", age:25, food:"pizza", eyeColor:"blue"};
+
+console.log(me)
