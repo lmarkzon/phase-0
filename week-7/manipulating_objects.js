@@ -15,27 +15,30 @@ var terah = {
 }
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
-
-
-
-
-
+adam = {name: "Adam"}
+terah.spouse = adam
+terah.weight = 125
+delete terah.eyeColor
+adam.spouse = terah
+terah.children = {}
+terah.children.carson = {name: "Carson"}
+terah.children.carter = {name: "Carter"}
+terah.children.colton = {name: "Colton"}
+adam.children = terah.children
 // __________________________________________
 // Reflection: Use the reflection guidelines
-//
-//
-//
-//
-//
-//
-
-
+// What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+  // The only one I had issues with was removing the eyeColor property from terah, I wasn't sure
+  // how to do it in JavaScript. So I googled deleting a property in JS in google and found that
+  // all I needed to do was use delete before the object and property.
+// How difficult was it to add and delete properties outside of the object itself?
+  // Adding properties was very simple, all I had to do was set them equal to their new value. Like
+  // I said above, I did had a difficult time removing the property from the object at first, but 
+  // once I found delete it worked and was super easy.
+// What did you learn about manipulating objects in this challenge?
+  // That the dot is super useful in JS for both calling and adding properties and values. Also that
+  // you can create an empty object with empty curly brackets, I did it just to see what would 
+  // happened since I didn't know how and it worked!
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {
