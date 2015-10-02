@@ -5,7 +5,7 @@
 // This challenge took me [#] hours.
 
 
-// Warm Up
+// Release 1: Bulk Up
 
 var athletes = [
 					ath1 = {name: "Sarah Hughes", event_name: "Ladies Single"},
@@ -21,7 +21,7 @@ console.log(ath1.name + athletes.win + ath1.event_name + "!");
 console.log(ath2.name + athletes.win + ath2.event_name + "!");
 // };
 
-// Jumble your words
+// Release 2: Jumble your words
 function reverse(string) {
 console.log(string.split('').reverse().join(''));
 }
@@ -30,15 +30,21 @@ console.log(string.split('').reverse().join(''));
 reverse("hey")
 
 
-
-// 2,4,6,8
-
-
-
-
-// "We built this city"
+// Release 3: 2,4,6,8
 
 
 
 
-// Reflection
+// Release 4: "We built this city"
+
+
+
+
+
+// Release 5: Reflection
+// - What JavaScript knowledge did you solidify in this challenge?
+	// ...
+// - What are constructor functions?
+	// ...
+// - How are constructors different from Ruby classes (in your research)?
+	// ...
