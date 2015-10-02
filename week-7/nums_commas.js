@@ -55,14 +55,23 @@ separateCommas(1000000000)
 // Reflection
 // - What was it like to approach the problem from the perspective of JavaScript? Did 
 // you approach the problem differently?
-	// At first we tried to approach the problem from a new and fresh perspective, and I 
-  // think we ended up just attempting to use functions we didn't fully understand yet.
-  // Seeing all of the similarities between Ruby and JS got us a little over-confident.
+	// At first we tried to approach the problem from a new and fresh perspective, and we
+  // ended up just attempting to use things in JS that we didn't fully understand yet.
+  // Seeing all of the similarities between Ruby and JS got us a little over-confident,
+  // we hadn't experienced the differences yet, and got stuck in a for loop for awhile.
   // Once we reapproached the problem and took it step by step, we were able to come up
-  // with a working solution, refactor, and have a better understanding of JS workflow.
+  // with a working solution, refactor, and have a better understanding of JS syntax.
 // - What did you learn about iterating over arrays in JavaScript?
-  // 
+  // That we do not understand fully yet how a for loop works, and that while loops are
+  // much easier to work with and similar to while in Ruby. Also, if what you're doing
+  // isn't working - try something else!!
 // - What was different about solving this problem in JavaScript?
-  // 
+  // Everything, we did not have a handle on Javascript before attempting this problem. 
+  // When we used methods we were familiar with in Ruby, such as push and slice, we weren't
+  // getting the solutions we expected. So we started again and instead took it step by step
+  // and only used things that we were familiar with.
 // - What built-in methods did you find to incorporate in your refactored solution?
-  // 
+  // Like said above, we researched a LOT of splice since slice and push did not do what we 
+  // expected. We also used while instead of for, but we changed that when we redid our 
+  // solution approach. In our initial solution, we also used length, join, and arithmetic 
+  // operators, but we were both familiar with those.
