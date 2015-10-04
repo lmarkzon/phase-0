@@ -65,6 +65,15 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 	// between using brackets or dots when calling objects within an array in JS, as 
 	// well as working with loops.
 // - What are constructor functions?
-	// Contructor functions is one of the ways you can create a JS object. 
+	// Using a contructor function is one of the ways you can create a JS object. But
+	// it gives you the benefit of creating a new instance of the object and then 
+	// a change can be made to that instance later in the code. You can also use
+	// or pass arguments with a constructor function. When a constructor function is
+	// initiated and then a change is made to that instance, it won't affect any other
+	// instances of that object.
 // - How are constructors different from Ruby classes (in your research)?
-	// 
+	// Ruby classes are objects that can create new objects, as well as define the 
+	// behavior of those objects. Constructors are similar in that they also can create
+	// new objects, but they initialize the new object with a prototype, and the prototype
+	// defines the behavior of those new objects created by the constructor. So in JS, they
+	// don't have a metaclass object defining their behavior, or encapsulate private data.
