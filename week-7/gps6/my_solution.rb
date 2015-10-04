@@ -1,19 +1,18 @@
 # Virus Predictor
 
 # I worked on this challenge [by myself, Irina Renteria with: Lauren Markzon].
-# We spent [#] hours on this challenge.
+# We spent [1] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#
-#
-require_relative 'state_data'
 # loads and references the file. required to run the program. needs to be in the same directory.
 # require() only loads once and needs the exact location/file path.
 
+require_relative 'state_data'
 # state_data: one hash for states : key (state names: strings)
 # values (hash: keys are symbols, values are numbers)
 
-# STATE_DATA is a constant. Can be defined inside or outside a class or methods. Scope: can be called from anywhere in the program.
+# STATE_DATA is a constant. Can be defined inside or outside a class or methods. 
+  # Scope: can be called from anywhere in the program.
 
 class VirusPredictor
 
@@ -32,8 +31,9 @@ class VirusPredictor
 
   private
 
-  def predicted_deaths(population_density, population, state) # predicts amount of deaths based on population density range and rounds down
-    # predicted deaths is solely based on population density
+  def predicted_deaths(population_density, population, state) 
+  # predicts amount of deaths based on population density range and rounds down
+  # predicted deaths is solely based on population density
     if @population_density >= 200
       number_of_deaths = (@population * 0.4).floor # always rounds down (.ceiling rounds up)
     elsif @population_density >= 150
@@ -97,4 +97,27 @@ end
 
 
 # #=======================================================================
-# # Reflection Section
+# Reflection Section
+# - What are the differences between the two different hash syntaxes shown in the state_data file?
+  # The first type of hash syntax is the whole hash itself, it is a hash called STATE_DATA with the
+  # state names as the keys and the information inside the curly brackets as the values. The second
+  # type of hash syntax in STATE_DATA is that each state is it's own hash, with the name of each
+  # state being the name of the hash, the keys are symbols (population/density/etc) and the values
+  # are the numbers/stats.
+# - What does require_relative do? How is it different from require?
+  # Require relative loads and references the file that is required to run the program. The required
+  # file needs to be in the same directory as the file that requires it. Require() on the other hand,
+  # only loads the file once and needs the exact location/file path.
+# - What are some ways to iterate through a hash?
+  # We iterated through the hash using each, but you can also use map, each_value, each_key, each_pair,
+  # etc. Certain ones are better to use than others depending on the circumstances and what it is you're
+  # exactly trying to do. 
+# - When refactoring virus_effects, what stood out to you about the variables, if anything?
+  # I convinced myself that it didn't need to take in the arguments and that we could just create
+  # reader attributes, but that would have meant we would have had to redo some of the classes and
+  # such so we decided not to take that approach. But I definitely noticed that they repeated
+  # instance variables uneccessarily.
+# - What concept did you most solidify in this challenge?
+  # I had no idea what require alone was, so learning about that helped solidify my understanding of
+  # require_relative. It also helped me solidify why and when we use instance variables, when they're
+  # needed, as well as iterating over hashes of different types of syntaxes.
