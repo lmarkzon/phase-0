@@ -105,11 +105,20 @@
 // hiker.move('right');
 
 // Refactored Code
+var food = {
+posX: Math.floor((Math.random()*100)+1)
+};
+
+var bigfoot = {
+posX: Math.floor((Math.random()*100)+1),
+posY: Math.floor((Math.random()*100)+1)
+};
+
 var hiker = {
 	posX: 0,
 	posY: 0,
 	food: 0,
-	win: false,
+	win: 0,
 
 move: function(command) {
 	if(command === 'up'){
@@ -124,16 +133,6 @@ move: function(command) {
 	else if(command === 'right'){
 		hiker.posX += 10;
 	};
-
-var food = {
-posX: Math.floor((Math.random()*100)+1),
-posY: Math.floor((Math.random()*100)+1)
-};
-
-var bigfoot = {
-posX: Math.floor((Math.random()*100)+1),
-posY: Math.floor((Math.random()*100)+1)
-};
 
 // when hiker moves, big foot moves too
 bigfoot.posX = Math.floor((Math.random()*100)+1);
@@ -156,6 +155,12 @@ console.log("Big Foot is currently located at " + bigfoot.posX + ", " + bigfoot.
 
 // DRIVER CODE
 hiker.move('up');
+hiker.move('right');
+hiker.move('right');
+hiker.move('up');
+hiker.move('right');
+hiker.move('down');
+hiker.move('down');
 
 
 
@@ -166,11 +171,11 @@ hiker.move('up');
 	// it was for me to come up with a game concept that was both simple for me to start with and still spark my interest. Of course
 	// when I stopped thinking about it so much, it just kind of slowly came together and the details just started making sense. Once
 	// I came up with a game idea, the most difficult part was trying to imagine it in "real life" without being able to physically see
-	// where the characters and food items were on the "path". My initial solution game is VERY simple because I'm still a bit intimidated
-	// by JS and have sent myself through mindless "rabit-holes" when I'm stuck or confused, so I made my initial solution a simpler version
-	// of the game by only needing to find food once to win. In my refactored solution, I tried to redo my code so the hiker would have to slowly 
-	// collect multiple items of food until their food level reached a certain point. So I was happy I was able to play with the game code and
-	// try to enhance it even if it was just a small change or not completely successful.
+	// where the characters and food items were on the "path". My game is VERY simple because I'm still a bit intimidated by JS and have
+	// sent myself through mindless "rabit-holes" when I'm stuck or confused, so I made a simpler version of the game by only needing to 
+	// find food once to win. In my refactored solution, I tried to redo my code so the hiker would have to slowly collect multiple items 
+	// of food until their food level reached a certain point, but it didn't work out as I hoped. Either way, I was happy to play with the
+	// code to see if and how I could.
 // - What did you learn about creating objects and functions that interact with one another?
 	// I learned that when creating these objects and functions, you should always great your main objects first and then work on
 	// functions once you have your "main pieces" done. I kept bouncing around and would create a function in between creating objects
