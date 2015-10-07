@@ -2,6 +2,7 @@
 Gradebook from Names and Scores
 I worked on this challenge [with: The Real George W.]
 This challenge took me [#] hours.
+
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
@@ -17,6 +18,33 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Write your code below.
+// gradebook = {
+//   Joseph: {testScores: scores[0]},
+//   Susan: {testScores: scores[1]},
+//   William: {testScores: scores[2]},
+//   Elizabeth: {testScores: scores[3]},
+
+//   addScore: function(name, score) {
+//     gradebook[name].testScores.push(score)
+//   },
+
+//   getAverage: function(name) {
+//   return average(gradebook[name].testScores)
+//   }
+// }
+
+// var average = function(array) {
+// var total = 0
+//   for(i = 0; i < array.length; i++) {
+//   total += array[i]
+//   }
+
+// return total / array.length
+// } 
+
+
+// __________________________________________
+// Refactored Solution
 gradebook = {
   Joseph: {testScores: scores[0]},
   Susan: {testScores: scores[1]},
@@ -33,18 +61,13 @@ gradebook = {
 }
 
 var average = function(array) {
-var total = 0
+  var total = 0
   for(i = 0; i < array.length; i++) {
-  total += array[i]
+    total += array[i]
   }
 
 return total / array.length
 } 
-
-
-// __________________________________________
-// Refactored Solution
-
 
 
 
@@ -52,11 +75,20 @@ return total / array.length
 // __________________________________________
 // Reflect
 // - What did you learn about adding functions to objects?
-  // ...
+  // Before this challenge I wasn't great at iterating/looping with for loops, I had been
+  // avoiding using them as much since I have so much trouble with them. But my pair in this
+  // challenge was great at forcing me to learn and understand how to use them, and now I
+  // really do feel confident about understand how they work and their proper syntax. I also
+  // learned that you can create an object within creating the function, which is actually
+  // quite handy! Every challenge helps me feel a little bit better about working with JS.
 // - How did you iterate over nested arrays in JavaScript?
-  // ...
+  // We iterated over the nested array by first creating a variable called total and then using
+  // a for loop. Like I said before, I'm still learning to get comfortable with for but this
+  // challenge really helped me. Also, as the instruction asked us to, we used brackets to
+  // actually access the arrays, specifically in gradebook.
 // - Were there any new methods you were able to incorporate? If so, what were they and how did they work?
-  // ...
+  // Not really, we used pretty simple methods that we've both used many times before, such 
+  // as length and push. We wanted to keep it simple, using methods we(I) understood completely.
 
 
 // __________________________________________
