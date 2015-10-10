@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Richard
+// This challenge took me [2.5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 
@@ -68,10 +68,43 @@ var officers = {
   // if each name not saved as a property inside voteCount, create new property for voteCount with value of 1
 // else
     // increment value of property by 1
- // Now that we have voteCount filled properly, iterate through voteCount positions to identify who received MAX votes and assign corresponding name to appropriate officer position.
+ // Now that we have voteCount filled properly, iterate through voteCount positions to identify who received MAX votes 
+ // and assign corresponding name to appropriate officer position.
 
 // __________________________________________
 // Initial Solution
+// for (var name in votes){
+//   if(votes.hasOwnProperty(name)) {
+//   var ballot = votes[name];
+//     for (var position in ballot) {
+//       if (voteCount[position].hasOwnProperty([ballot[position]])) {
+//          voteCount[position][ballot[position]]++;
+//       }
+//       else {
+//           voteCount[position][ballot[position]] = 1
+//           };
+//       }
+//     }
+//   }
+
+// for (var titles in voteCount) {
+//   var tallies = voteCount[titles];
+//   var winner = 0;
+//     for (var names in tallies){
+//       if (tallies[names] > winner) {
+//         winner = tallies[names];
+//         officers[titles] = names;
+//       }
+//     }
+// }
+      
+
+// console.log(voteCount)
+
+
+
+// __________________________________________
+// Refactored Solution
 for (var name in votes){
   if(votes.hasOwnProperty(name)) {
   var ballot = votes[name];
@@ -103,19 +136,21 @@ console.log(officers)
 
 
 // __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-// __________________________________________
 // Reflection
-
-
-
-
+// What did you learn about iterating over nested objects in JavaScript?
+  // That the syntax for accessing and iterating over nested objects in JS is
+  // not the same as nested hashes in Ruby. Also, staying organized with your
+  // curly braces, parantheses, and semi-colons is important while building
+  // the code to avoid issues when you run it. 
+// Were you able to find useful methods to help you with this?
+  // Yes, we found the method hasOwnProperty and it was very useful, we used it 
+  // quite a few times in our solution. It returns a boolean indicating whether 
+  // the object has the property, listed in parantheses following the method name. 
+// What concepts were solidified in the process of working through this challenge?
+  // That even though it's hard to get through, pseudocoding is really an important
+  // step in the process to help you understand what it is you're really trying to do.
+  // It's also important to keep track of your curly braces, as well as utilize indenting
+  // to organize the code, it really make's a difference with readability.
 
 
 // __________________________________________
