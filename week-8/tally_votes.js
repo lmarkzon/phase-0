@@ -78,7 +78,7 @@ var officers = {
 //   var ballot = votes[name];
 //     for (var position in ballot) {
 //       if (voteCount[position].hasOwnProperty([ballot[position]])) {
-//          voteCount[position][ballot[position]]++;
+//          voteCount[position][ballot[position]]+= 1;
 //       }
 //       else {
 //           voteCount[position][ballot[position]] = 1
