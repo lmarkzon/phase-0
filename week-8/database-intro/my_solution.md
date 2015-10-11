@@ -1,11 +1,15 @@
-###Release 5: SELECTing data from a database
-1. Select all data for all states.
+###Release 5: SELECTing data from a database    
+1. Select all data for all states. 
+
 	SELECT * FROM states;
-2. Select all data for all regions.
+2. Select all data for all regions.  
+
 	SELECT * FROM regions;
-3. Select the state_name and population for all states.
+3. Select the state_name and population for all states. 
+
 	SELECT state_name, population FROM states;
 4. Select the state_name and population for all states ordered by population. The state with the highest population should be at the top.
+
 	SELECT state_name, population FROM states ORDER BY population DESC;
 5. Select the state_name for the states in region 7.
 	SELECT state_name FROM states WHERE region_id=7;
