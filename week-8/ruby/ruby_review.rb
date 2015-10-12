@@ -59,6 +59,8 @@ end
 	# to the rest of them the last week of Phase-0. I focused more on reviewing the syntax
 	# and terms in Ruby this week.
 # - What are you going to study to get more prepared for Phase 1?
+	# I was dissapointed that I only managed to do one Ruby review challenge this week, but
+	# I plan to do the rest of them the last week of phase-0 when I have more review time.
 	# I'm just going to go back and review all of our previous quizzes and challenges from
 	# prior weeks. In addition to also doing the code academy tracks of each language, I
 	# am also making cheat sheets for each language to help me work more efficiently,
