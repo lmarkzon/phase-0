@@ -1,11 +1,10 @@
 // DOM Manipulation Challenge
 
 
-// I worked on this challenge [by myself, with: ].
+// I worked on this challenge [with: Jamie].
 
 
 // Add your JavaScript calls to this page:
-
 
 
 // Release 1:
@@ -29,6 +28,15 @@ document.body.appendChild(temp.content.cloneNode(true));
 
 // Release 7: Reflect
 // - What did you learn about the DOM?
-	// ...
+	// To be honest this is my first in-depth experience working with the DOM, 
+	// at least since we worked with CSS in the early parts of phase-0. So all
+	// of this felt like new material to me, it was nice to play around and 
+	// experiment to learn more about how it works. It's sort of like an advanced
+	// and interaction version of CSS, but using quotes so much is definitely
+	// going to be an adjustment.
 // - What are some useful methods to use to manipulate the DOM?
-	// ...
+	// We used a bunch of methods that were useful to manipulate the DOM, such
+	// as .getElementById, getElementsByTagName, .getElementsByClassName, 
+	// .style, .display, .backgroundColor, .fontSize, .appendChild, .cloneNode, 
+	// etc. Luckily, they're all pretty straightforward as to what exactly they 
+	// do in what they're called. 
