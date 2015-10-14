@@ -33,7 +33,11 @@ document.body.appendChild(temp.content.cloneNode(true));
 	// of this felt like new material to me, it was nice to play around and 
 	// experiment to learn more about how it works. It's sort of like an advanced
 	// and interaction version of CSS, but using quotes so much is definitely
-	// going to be an adjustment.
+	// going to be an adjustment. The DOM is made up of every element on the page,
+	// it's laid out in a hierarchical way that reflects the way the HTML document
+	// is ordered. The way we could think of HTML as a tree, we can also think of 
+	// the DOM in the same way. Elements in the DOM can have parents, children, 
+	// and siblings. 
 // - What are some useful methods to use to manipulate the DOM?
 	// We used a bunch of methods that were useful to manipulate the DOM, such
 	// as .getElementById, getElementsByTagName, .getElementsByClassName, 
