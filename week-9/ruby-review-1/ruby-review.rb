@@ -1,7 +1,7 @@
-# Release 1: Complete the Challenge
+# Release 1: Complete the challenge
 # Introduction to Inheritance
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: Irina/Jamie].
 
 
 # Pseudocode
@@ -48,7 +48,7 @@ class GlobalCohort
     
   end
 
-  def add_student(name)
+  def add_student(name, email)
     @added = @students.push(name)
   end
   
