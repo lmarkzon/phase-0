@@ -116,7 +116,6 @@
 # end
 
 # Refactored Solution
-
 class CreditCard
 	def initialize(digits)
 		@digitarray = digits.to_s.split('').map!{ |value| value.to_i }
@@ -160,7 +159,6 @@ end
 
 
 # Reflection
-
 # - What was the most difficult part of this challenge for you and your pair?
 	# My pair and I had a really hard time with this challenge, particularly with calling methods
 	# and knowing when and where to call them. We also kept getting two errors because we didn't know 
