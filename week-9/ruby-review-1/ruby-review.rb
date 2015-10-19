@@ -69,15 +69,15 @@ class GlobalCohort
     puts "-------------------------"
     puts "Cohort Info"
     puts "-------------------------"
+    puts "Cohort: #{@cohort_name}"
     puts "Students: #{@students}"
+    puts "Removed: #{@removed}"
     puts "Start: #{@p0_start_date}"
     puts "Immersive: #{@immersive_start_date}"
     puts "Graduation: #{@graduation_date}"
-    puts "Phase 1: #{@phase1}" 
-    puts "Phase 2: #{@phase2}" 
-    puts "Phase 3: #{@phase3}"
-    puts "Cohort: #{@cohort_name}"
-    puts "Removed: #{@removed}"
+    puts "Phase-1: #{@phase1}" 
+    puts "Phase-2: #{@phase2}" 
+    puts "Phase-3: #{@phase3}"
   end    
   
   def currently_in_phase
@@ -91,6 +91,7 @@ class GlobalCohort
     end
   end
   
+
   def graduated?
     case 
     when @current_date >= @graduation_date then puts "Cohort graduated."
@@ -100,7 +101,7 @@ class GlobalCohort
   
 end
 
-# class LocalCohort < GlobalCohort
+
 #   def initialize (city)
 #   end
   
